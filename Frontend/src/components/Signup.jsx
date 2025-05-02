@@ -13,11 +13,16 @@ export default function Signup() {
     };
   return (
     <>
-    <div className='flex flex-col items-center justify-center h-screen'>
+    <div className='flex flex-col items-center justify-center h-screen px-4'>
       <form method="dialog" onSubmit={handleSubmit(onSubmit)}>
-      <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+      
     <div className='border-2 shadow-md p-5 rounded-md'>
-    <h1 className="font-bold my-2 text-xl py-3 px-1">SignUp</h1>
+      <div className='flex justify-between '>
+      <h1 className="font-bold my-2 text-xl py-3 px-1">SignUp</h1>
+      <Link to='/' className="btn btn-sm btn-circle my-4">✕</Link>
+      </div>
+    
+
     <div>
     <span className='px-1'>Name</span><br/>
     

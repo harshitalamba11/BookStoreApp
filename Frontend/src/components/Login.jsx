@@ -18,7 +18,7 @@ function Login() {
 <dialog id="modal" className="modal">
   <div className="modal-box">
     <form method="dialog" onSubmit={handleSubmit(onSubmit)}>
-      <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+      <button onClick={() => document.getElementById('modal').close()} className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
     
     <h1 className="font-bold my-2 text-xl py-3 px-1">Login</h1>
     <div>
@@ -32,7 +32,7 @@ function Login() {
       <br/>
       {errors.password && <p className='text-sm flex text-red-500'>Password is required.</p>}
     </div>
-    <div className='flex justify-between mx-2 my-3'>
+    <div className='flex justify-between mx-1 my-3'>
       <button className='bg-pink-500 p-2 rounded px-3 text-white'>Login</button>
       <p className='px-2 py-1'>Not Registered? 
         <Link to='/Signup' className='cursor-pointer text-blue-400'>SignUp</Link>
