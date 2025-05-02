@@ -1,0 +1,82 @@
+[
+    {
+        "id":1,
+        "name":"KidzStory Book",
+        "title":"lorem, ipsum dolor sit amet",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/open-book-forest-theme-white-background_1308-96490.jpg?ga=GA1.1.1711728576.1745877322&semt=ais_hybrid&w=740"
+    },
+    {
+        "id":2,
+        "name":"Comedy Book",
+        "title":"lorem, ipsum dolor sit amet",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-photo/international-day-education-celebration_23-2150931046.jpg?ga=GA1.1.1711728576.1745877322&semt=ais_hybrid&w=740"
+    },
+    {
+        "id":3,
+        "name":"Sports Book",
+        "title":"lorem, ipsum dolor sit amet",
+        "price":300,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-psd/sports-vertical-poster-template-with-elements_23-2149427158.jpg?ga=GA1.1.1711728576.1745877322&semt=ais_hybrid&w=740"
+    },
+    {
+        "id":4,
+        "name":"Music Book",
+        "title":"lorem, ipsum dolor sit amet",
+        "price":130,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-photo/book-headphones-arrangement_23-2149765771.jpg?t=st=1745904918~exp=1745908518~hmac=ed1e01d234829fb782b6c7dec7ed5e4e5083d08b134a8d3c2e4f79f72f8a673c&w=740"
+    },
+    {
+        "id":5,
+        "name":"Entertain Book",
+        "title":"lorem, ipsum dolor sit amet",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-photo/cinema-concept-with-tablet_23-2147988983.jpg?ga=GA1.1.1711728576.1745877322&semt=ais_hybrid&w=740"
+    },
+    {
+        "id":6,
+        "name":"General Book",
+        "title":"lorem, ipsum dolor sit amet",
+        "price":200,
+        "category":"Gk",
+        "image":"https://img.freepik.com/premium-vector/cartoon-style-stack-books-isolated-white-background_134830-605.jpg?ga=GA1.1.1711728576.1745877322&semt=ais_hybrid&w=740"
+    },
+    {
+        "id":7,
+        "name":"Dance Book",
+        "title":"lorem, ipsum dolor sit amet",
+        "price":50,
+        "category":"Dancing",
+        "image":"https://img.freepik.com/free-vector/open-book-forest-theme-white-background_1308-96490.jpg?ga=GA1.1.1711728576.1745877322&semt=ais_hybrid&w=740"
+    },
+    {
+        "id":8,
+        "name":"StoryFairy Book",
+        "title":"lorem, ipsum dolor sit amet",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/open-book-forest-theme-white-background_1308-96490.jpg?ga=GA1.1.1711728576.1745877322&semt=ais_hybrid&w=740"
+    },
+    {
+        "id":9,
+        "name":"Psycho Book",
+        "title":"lorem, ipsum dolor sit amet",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/open-book-forest-theme-white-background_1308-96490.jpg?ga=GA1.1.1711728576.1745877322&semt=ais_hybrid&w=740"
+    },
+    {
+        "id":10,
+        "name":"Economics Book",
+        "title":"lorem, ipsum dolor sit amet",
+        "price":500,
+        "category":"Diversity",
+        "image":"https://img.freepik.com/free-vector/open-book-forest-theme-white-background_1308-96490.jpg?ga=GA1.1.1711728576.1745877322&semt=ais_hybrid&w=740"
+    }
+]
