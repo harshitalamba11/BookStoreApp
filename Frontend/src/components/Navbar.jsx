@@ -1,10 +1,14 @@
 import React from 'react'
+import Contact from './Contact'
 import { useState,useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import About from './About';
 // import Course from "./components/Course.jsx"
 import Login from "./Login"
 function Navbar() {
   const [theme,setTheme]=useState(localStorage.getItem("theme")?localStorage.getItem("theme"):"light")
   const element=document.documentElement;
+  const [isContactModalOpen, setIsContactModalOpen] = useState(false); // State for modal visibility
   useEffect(()=>{
     if(theme==="dark"){
       element.classList.add("dark");
@@ -52,7 +56,7 @@ function Navbar() {
         <li><a href="/">Home</a></li>
         <li><a href="/Course">Course</a></li>
         <li><a>About</a></li>
-        <li><a>Contact</a></li>
+        <li><Link to='/Contact'><a onClick={() => document.getElementById('modal2').showModal()}>Contact</a></Link></li> {/* Use state to open modal */}
       </ul>
     </div>
     <a className="btn btn-ghost cursor-pointer text-4xl font-bold">BookStore</a>
@@ -64,8 +68,8 @@ function Navbar() {
     <ul className="menu menu-horizontal px-4">
         <li><a href="/">Home</a></li>
         <li><a href="/Course">Course</a></li>
-        <li><a>About</a></li>
-        <li><a>Contact</a></li>
+        <li><Link to='/About'><a>About</a></Link></li>
+        <li><a onClick={()=>document.getElementById('modal2').showModal()}>Contact</a><Contact/></li>
     </ul>
   </div>
 
@@ -132,7 +136,10 @@ function Navbar() {
   </div>
 </div>
 </div>
+
   )
+  
+
 }
 
 export default Navbar
